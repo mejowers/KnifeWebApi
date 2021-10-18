@@ -14,14 +14,15 @@ namespace KnifeWebApi.Models {
         public int KnifeId { get; set; }
 
         [Column(TypeName = "decimal(11,2)")]
-        public decimal BlueBookPrice { get; set; }
+        public decimal BlueBookPrice { get; set; } = 0.0m;
         [Column(TypeName = "decimal(11,2)")]
         public decimal PaidPrice { get; set; }
         [Column(TypeName = "decimal(11,2)")]
         public decimal AskingPrice { get; set; }
         [Column(TypeName = "decimal(11,2)")]
         public decimal SellPrice { get; set; }
-        
+
+        [Column(TypeName = "decimal(11,2)")]        
         public decimal Total { get; set; }
 
 
