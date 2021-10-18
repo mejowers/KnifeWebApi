@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KnifeWebApi", "KnifeWebApi\KnifeWebApi.csproj", "{AE9FD931-0168-4E8B-BEB2-6EEF3A072D30}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE9FD931-0168-4E8B-BEB2-6EEF3A072D30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE9FD931-0168-4E8B-BEB2-6EEF3A072D30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE9FD931-0168-4E8B-BEB2-6EEF3A072D30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE9FD931-0168-4E8B-BEB2-6EEF3A072D30}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AFFF75EE-B07F-4524-AEE7-DE952314A933}
+	EndGlobalSection
+EndGlobal
