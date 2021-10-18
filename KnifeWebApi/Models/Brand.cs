@@ -15,8 +15,7 @@ namespace KnifeWebApi.Models {
         [StringLength(25)]
         public string OriginCountry { get; set; }
 
-        public virtual IEnumerable<Knife> Knives { get; set; }
-
+        
         public Brand() { }
     }
 }
